@@ -24,7 +24,7 @@ jobs:
           pip install -r requirements.txt  # Adjust this line based on your project's dependency management
 
       - name: Build and test
-        run: python your_build_script.py  # Adjust this line based on your build process
+        run: python script.py  # Adjust this line based on your build process
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
